@@ -1,5 +1,8 @@
 # Mailman 👮
 
+## Cargosense Fork of Mailman
+This is a very minor fork of Mailman which only removes a single line requiring `httpotion` in the mix.lock file. This library was not used anywhere, but has been abandoned for some time and restricts some of your dependency calculations when it is in the version tree. This fork will be kept even with main on `mailman`, but the base project has been inactive for some time so this fork is created without the expectation of an update upstream.
+
 [![Elixir CI](https://github.com/mailman-elixir/mailman/actions/workflows/elixir.yml/badge.svg)](https://github.com/mailman-elixir/mailman/actions/workflows/elixir.yml)
 [![Module Version](https://img.shields.io/hexpm/v/mailman.svg)](https://hex.pm/packages/mailman)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/mailman/)
